@@ -7,7 +7,7 @@
 
 body{
     font-family: 'Orbitron', sans-serif;
-    background-color:#141718;
+    background: linear-gradient(to bottom, #141718, #242f37);
 }
 
 html {

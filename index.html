@@ -1,28 +1,36 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
     <!-- importando o css -->
     <link rel="stylesheet" href="/css/global.css">
     <link rel="stylesheet" href="/css/style.css">
+    
     <!-- importando a font -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&display=swap" rel="stylesheet">
+    
+    <!-- importando icon -->
+    <script src="https://kit.fontawesome.com/a290182793.js"></script>
+    
     <!-- titulo da pagina -->
     <title>Tech Conference 2024</title>
 </head>
+
 <body>
     <!-- INICIO DA HEADER -->
+    <nav class="navbar">
+        <ul class="ul-navbar">
+            <li><a href="#sobre">Sobre o Evento</a></li>
+            <li><a href="#cadastro">Cadastro</a></li>
+            <li><a href="#contato">Contato</a></li>
+        </ul>
+    </nav>
     <header class="header-principal">
-        <nav class="navbar">
-            <ul class="ul-navbar">
-                <li><a href="#sobre">Sobre o Evento</a></li>
-                <li><a href="#">Cadastro</a></li>
-                <li><a href="#">Contato</a></li>
-            </ul>
-        </nav>
         <div class="text-navbar">
             <h1>Tech Conference 2024</h1>
             <strong>Inovação que Conecta o Futuro</strong>
@@ -31,7 +39,7 @@
     <!-- FIM DA HEADER -->
 
     <!-- INICIO DA MAIN -->
-     <main>
+    <main>
 
         <!-- INICIO DO SOBRE -->
         <section>
@@ -39,26 +47,38 @@
 
                 <h2>Sobre o Evento</h2>
 
-                <div class="sobre-div-impar" >
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer vel ipsum in sapien fermentum lobortis vel vel eros. Donec semper, justo id semper iaculis, mauris arcu viverra nunc, ac sagittis velit nunc a velit. Sed nec faucibus turpis. Duis vitae mi in justo viverra ullamcorper.</p>
-                
+                <div class="sobre-div-impar">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer vel ipsum in sapien fermentum
+                        lobortis vel vel eros. Donec semper, justo id semper iaculis, mauris arcu viverra nunc, ac
+                        sagittis velit nunc a velit. Sed nec faucibus turpis. Duis vitae mi in justo viverra
+                        ullamcorper.</p>
+
                     <img src="/images/1.png" alt="Imagem sobre">
                 </div>
 
                 <div class="sobre-div-par">
                     <img src="/images/2.png" alt="Imagem sobre">
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer vel ipsum in sapien fermentum lobortis vel vel eros. Donec semper, justo id semper iaculis, mauris arcu viverra nunc, ac sagittis velit nunc a velit. Sed nec faucibus turpis. Duis vitae mi in justo viverra ullamcorper.</p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer vel ipsum in sapien fermentum
+                        lobortis vel vel eros. Donec semper, justo id semper iaculis, mauris arcu viverra nunc, ac
+                        sagittis velit nunc a velit. Sed nec faucibus turpis. Duis vitae mi in justo viverra
+                        ullamcorper.</p>
                 </div>
 
                 <div class="sobre-div-impar">
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer vel ipsum in sapien fermentum lobortis vel vel eros. Donec semper, justo id semper iaculis, mauris arcu viverra nunc, ac sagittis velit nunc a velit. Sed nec faucibus turpis. Duis vitae mi in justo viverra ullamcorper.</p>
-                
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer vel ipsum in sapien fermentum
+                        lobortis vel vel eros. Donec semper, justo id semper iaculis, mauris arcu viverra nunc, ac
+                        sagittis velit nunc a velit. Sed nec faucibus turpis. Duis vitae mi in justo viverra
+                        ullamcorper.</p>
+
                     <img src="/images/3.png" alt="Imagem sobre">
                 </div>
 
                 <div class="sobre-div-par">
                     <img src="/images/4.png" alt="Imagem sobre">
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer vel ipsum in sapien fermentum lobortis vel vel eros. Donec semper, justo id semper iaculis, mauris arcu viverra nunc, ac sagittis velit nunc a velit. Sed nec faucibus turpis. Duis vitae mi in justo viverra ullamcorper.</p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer vel ipsum in sapien fermentum
+                        lobortis vel vel eros. Donec semper, justo id semper iaculis, mauris arcu viverra nunc, ac
+                        sagittis velit nunc a velit. Sed nec faucibus turpis. Duis vitae mi in justo viverra
+                        ullamcorper.</p>
                 </div>
 
             </div>
@@ -67,9 +87,101 @@
 
         <!-- INICIO DO CADASTRO  -->
 
+        <section class="section-formulario" id="cadastro">
+
+            <div class="div-formulario">
+                
+                <h4>Cadastre-se para participar do evento Tech Conference 2024</h4>
+                
+                <form class="formulario-cadastro">
+
+                    <div id="cadastro-nome">
+                        <div class="cadastronome">
+                            <label for="nome">Nome:</label>
+                            <input type="text" id="nome" name="nome" required>
+                        </div>
+                        <div class="cadastronome">
+                            <label for="email">Email:</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+                        <div class="cadastronome">
+                            <label for="telefone">Telefone:</label>
+                            <input type="tel" id="telefone" name="telefone" required>
+                        </div>
+                    </div>
 
 
+                    <div id="workshop">
+                        <label id="titulo-workshop" for="workshop">Selecione os Workshops de sua preferência:</label>
 
-     </main>
+                        <div class="opcao-workshop">
+                            <input type="radio" id="html" name="fav_workshop" value="HTML">
+                            <label for="html">HTML</label>
+                        </div>
+
+                        <div class="opcao-workshop">
+                            <input type="radio" id="css" name="fav_workshop" value="CSS">
+                            <label for="css">CSS</label>
+                        </div>
+
+                        <div class="opcao-workshop">
+                            <input type="radio" id="javascript" name="fav_workshop" value="JavaScript">
+                            <label for="javascript">JavaScript</label>
+                        </div>
+                    </div>
+
+                    <div id="news">
+
+                        <label for="newsletter"> Deseja receber nossa Newsletter? </label>
+
+                        <div class="radio-news">
+                            <div>
+                                <input type="radio">
+                                <label for="radio"> Sim </label>
+                            </div>
+                            
+                            <div>
+                                <input type="radio">
+                                <label for="radio"> Não </label>
+                            </div>
+                            
+                        </div>
+                        
+                    </div>
+
+                    <button type="submit" id="btn-submit">Enviar</button>
+                </form>
+            </div>
+        </section>
+        <!-- FIM DO CADASTRO  -->
+    </main>
+    <!-- FIM DA MAIN -->
+
+    <!-- INICIO DO FOOTER -->
+     <footer class="footer" id="contato">
+        <div class="container-footer">
+            <ul class="footer-ul">
+                <li>
+                  <a href="#"><i class="fab fa-facebook"></i></a>
+                  <p>@hDC Host</p>
+                </li>
+                <li>
+                  <a href="#"><i class="fab fa-twitter"></i></a>
+                  <p>@hDC Host</p>
+                </li>
+                <li>
+                  <a href="#"><i class="fab fa-instagram"></i></a>
+                  <p>@hDC Host</p>
+                </li>
+              </ul>
+            <div class="endereco">
+                <p>Tech Conference 2024<br>Rua do Convento, 123 - São Paulo<br>CEP: 00000-000</p>
+            </div>
+            <div class="copyright">
+                <p>&copy; 2024 Tech Conference. Todos os direitos reservados.</p>
+            </div>
+        </div>
+    </footer>
 </body>
+
 </html>

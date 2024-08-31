@@ -11,8 +11,11 @@
 .navbar{
     
     display: flex;
-    height: 100px;
+    height: 90px;
     background-color: #141718;
+    top: 0;
+    position: sticky;
+    z-index: 999;
 }
 
 .ul-navbar{
@@ -175,3 +178,192 @@
 /* FIM DO SOBRE */
 
 /* INICIO DO CADASTRO */
+
+.section-formulario{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 900px;
+    padding: 30px;
+}
+
+.div-formulario{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    background-color: #192029;
+    width: 50%;
+    height: 100%;
+    border-radius: 10px;
+    margin: 10px;
+    padding: 20px;
+}
+
+.div-formulario h4{
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    color: #bcbcbc; /* Cor do texto principal */
+    -webkit-text-stroke: 1px rgba(34, 193, 195, 0.4); /* Contorno do texto em verde */
+    text-shadow: 0px 2px 4px rgba(34, 193, 195, 0.4);
+}
+
+.formulario-cadastro{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    height: 70%;
+    width: 90%;
+    gap: 20px;
+}
+
+#cadastro-nome{
+    display: flex;
+    flex-direction: column;
+
+    width: 70%;
+    max-width: 400px;
+    padding: 10px;
+    border-radius: 5px;
+    color: #bcbcbc; /* Cor do texto principal */
+    -webkit-text-stroke: 1px rgba(34, 193, 195, 0.4); /* Contorno do texto em verde */
+    text-shadow: 0px 2px 4px rgba(34, 193, 195, 0.4);
+}
+
+.cadastronome{
+    display: flex;
+    flex-direction: column;
+}
+
+.cadastronome input{
+    width: 100%;
+    padding: 5px;
+    border-radius: 5px;
+    border: none;
+    color: #ffffff;
+    cursor:text;
+}
+
+#workshop{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 70%;
+    max-width: 400px;
+    padding: 10px;
+    border-radius: 5px;
+    color: #bcbcbc; /* Cor do texto principal */
+    -webkit-text-stroke: 1px rgba(34, 193, 195, 0.4); /* Contorno do texto em verde */
+    text-shadow: 0px 2px 4px rgba(34, 193, 195, 0.4);
+}
+
+#titulo-workshop{
+    font-size: 16px;
+    color: #838d8f;
+    margin-bottom: 20px;
+}
+
+.opcao-workshop{
+    display: flex;
+    margin-bottom: 10px;
+    gap: 5px;
+}
+
+#news{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 70%;
+    max-width: 400;
+    padding: 10px;
+    gap: 20px;
+    border-radius: 5px;
+    color: #bcbcbc; /* Cor do texto principal */
+    -webkit-text-stroke: 1px rgba(34, 193, 195, 0.4); /* Contorno do texto em verde */
+    text-shadow: 0px 2px 4px rgba(34, 193, 195, 0.4);
+}
+
+.radio-news{
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    align-items:center;
+    justify-content: space-evenly;
+}
+
+#btn-submit{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #3498db;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+    -webkit-text-stroke: 1px rgba(34, 193, 195, 0.4); /* Contorno do texto em verde */
+    text-shadow: 0px 2px 4px rgba(34, 193, 195, 0.4);
+}
+
+#btn-submit:hover{
+    background-color: #2980b9;
+    color: #ffffff;
+}
+
+/* FIM DO CADASTRO */
+
+/* INICIO DO FOOTER */
+
+.footer{
+    display: flex;
+    width: 100%;
+    height: 200px;
+}
+
+.container-footer{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: flex-end;
+    gap: 30px;
+    padding: 20px;
+    color: #bcbcbc;
+}
+
+.footer-ul{
+    display: flex;
+    
+
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-ul li{
+    display: flex;
+    list-style: none;
+    text-decoration: none;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+/* FIM DO FOOTER */
+
+
+
+
+
+/* ICONS */
+.fa-facebook, .fa-twitter, .fa-instagram{
+    color: #bcbcbc;
+    font-size: 30px;
+}
