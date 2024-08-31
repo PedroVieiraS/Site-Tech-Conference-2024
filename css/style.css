@@ -1,0 +1,177 @@
+/* INICIO DA HEADER */
+.header-principal{
+    width: 100%;
+    height: 500px;
+
+    display: flex;
+    flex-direction: column;
+}
+
+
+.navbar{
+    
+    display: flex;
+    height: 100px;
+    background-color: #141718;
+}
+
+.ul-navbar{
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    justify-content: flex-end;
+    align-items: center;
+    
+
+    width: 100%;
+    padding: 20px;
+    gap: 20px;
+}
+
+.ul-navbar li a{
+    color: #838d8f;
+    text-decoration: none;
+    color: #bcbcbc; /* Cor do texto principal */
+    -webkit-text-stroke: 1px rgba(34, 193, 195, 0.4); /* Contorno do texto em verde */
+    text-shadow: 0px 2px 4px rgba(34, 193, 195, 0.4);
+}
+
+.ul-navbar li a:hover{
+    color: #ffffff;
+}
+
+.text-navbar{
+    /* imagem */
+    background-image: url("/images/7.png");
+    background-image: center;
+    background-position: center;
+    background-size: cover;
+    
+
+    /* display */
+    display: flex;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;   
+
+    /* text */
+    font-size: 30px;
+}
+
+.text-navbar h1{
+    font-weight: bold;
+    color: #bcbcbc; /* Cor do texto principal */
+    -webkit-text-stroke: 1px rgba(34, 193, 195, 0.4); /* Contorno do texto em verde */
+    text-shadow: 0px 2px 4px rgba(34, 193, 195, 0.4);
+}
+
+.text-navbar strong{
+    font-size: bold;
+    color: #bcbcbc; /* Cor do texto principal */
+    -webkit-text-stroke: 1px rgba(34, 193, 195, 0.4); /* Contorno do texto em verde */
+    text-shadow: 0px 2px 4px rgba(34, 193, 195, 0.4);
+}
+
+/* FIM DA HEADER */
+
+/* INICIO DO SOBRE */
+
+.container-sobre{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    margin: 20px;
+    gap: 40px;
+}
+
+.container-sobre h2{
+    font-size: 30px;
+    font-weight: bold;
+    color: #bcbcbc; /* Cor do texto principal */
+    -webkit-text-stroke: 1px rgba(34, 193, 195, 0.4); /* Contorno do texto em verde */
+    text-shadow: 0px 2px 4px rgba(34, 193, 195, 0.4);
+}
+
+
+	
+
+
+.sobre-div-impar{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-align: justify;
+
+    gap: 20px;
+    padding: 20px;
+    border-radius: 10px;
+
+    background-color: #192029;
+    box-shadow: rgba(34, 193, 195, 0.4) 5px 5px, 
+            rgba(34, 193, 195, 0.3) 10px 10px, 
+            rgba(34, 193, 195, 0.2) 15px 15px, 
+            rgba(34, 193, 195, 0.1) 20px 20px, 
+            rgba(34, 193, 195, 0.05) 25px 25px;
+
+}
+
+.sobre-div-par{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-align: justify;
+
+    gap: 20px;
+    padding: 20px;
+    border-radius: 10px;
+
+    background-color: #192029;
+    box-shadow: rgba(34, 193, 195, 0.4) -5px 5px, 
+            rgba(34, 193, 195, 0.3) -10px 10px, 
+            rgba(34, 193, 195, 0.2) -15px 15px, 
+            rgba(34, 193, 195, 0.1) -20px 20px, 
+            rgba(34, 193, 195, 0.05) -25px 25px;
+
+}
+
+.sobre-div-impar p{
+    color: #838d8f;
+    font-size: 18px;
+}
+.sobre-div-par p{
+    color: #838d8f;
+    font-size: 18px;
+}
+
+.sobre-div-impar img{
+    height: 300px;
+    width: 534px;
+
+    background-position: center;
+    background-size: cover;
+    background-image: center;
+
+    border-radius: 10px;
+    box-shadow: rgba(34, 193, 195, 0.4) 0px 0px 10px 5px;
+}
+
+.sobre-div-par img{
+    height: 300px;
+    width: 534px;
+
+    background-position: center;
+    background-size: cover;
+    background-image: center;
+
+    border-radius: 10px;
+    box-shadow: rgba(34, 193, 195, 0.4) 0px 0px 10px 5px;
+}
+
+/* FIM DO SOBRE */
+
+/* INICIO DO CADASTRO */
